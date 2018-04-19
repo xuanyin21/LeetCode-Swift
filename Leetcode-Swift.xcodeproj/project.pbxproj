@@ -13,6 +13,8 @@
 		4EE3DF822087EDB80068DCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE3DF812087EDB80068DCB3 /* Assets.xcassets */; };
 		4EE3DF852087EDB80068DCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE3DF832087EDB80068DCB3 /* LaunchScreen.storyboard */; };
 		4EE3DF902087EDB80068DCB3 /* Leetcode_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3DF8F2087EDB80068DCB3 /* Leetcode_SwiftTests.swift */; };
+		4EE3DF9B2087EE060068DCB3 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3DF9A2087EE060068DCB3 /* TreeNode.swift */; };
+		4EE3DF9D2087EE2C0068DCB3 /* DiameterBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3DF9C2087EE2C0068DCB3 /* DiameterBinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4EE3DF8B2087EDB80068DCB3 /* Leetcode-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leetcode-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE3DF8F2087EDB80068DCB3 /* Leetcode_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_SwiftTests.swift; sourceTree = "<group>"; };
 		4EE3DF912087EDB80068DCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE3DF9A2087EE060068DCB3 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		4EE3DF9C2087EE2C0068DCB3 /* DiameterBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiameterBinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		4EE3DF792087EDB50068DCB3 /* Leetcode-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				4EE3DF9E2087EE3E0068DCB3 /* Tree */,
 				4EE3DF7A2087EDB50068DCB3 /* AppDelegate.swift */,
 				4EE3DF7C2087EDB50068DCB3 /* ViewController.swift */,
 				4EE3DF7E2087EDB50068DCB3 /* Main.storyboard */,
@@ -94,6 +99,15 @@
 				4EE3DF912087EDB80068DCB3 /* Info.plist */,
 			);
 			path = "Leetcode-SwiftTests";
+			sourceTree = "<group>";
+		};
+		4EE3DF9E2087EE3E0068DCB3 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				4EE3DF9A2087EE060068DCB3 /* TreeNode.swift */,
+				4EE3DF9C2087EE2C0068DCB3 /* DiameterBinaryTree.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +213,8 @@
 			files = (
 				4EE3DF7D2087EDB50068DCB3 /* ViewController.swift in Sources */,
 				4EE3DF7B2087EDB50068DCB3 /* AppDelegate.swift in Sources */,
+				4EE3DF9B2087EE060068DCB3 /* TreeNode.swift in Sources */,
+				4EE3DF9D2087EE2C0068DCB3 /* DiameterBinaryTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Leetcode-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Leetcode-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

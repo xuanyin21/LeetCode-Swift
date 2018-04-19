@@ -24,6 +24,23 @@ class Leetcode_SwiftTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let root = TreeNode(1)
+        let left = TreeNode(2)
+        let right = TreeNode(3)
+        
+        let leftLeft = TreeNode(4)
+        let leftRight = TreeNode(5)
+        
+        root.left = left
+        root.right = right
+        
+        left.left = leftLeft
+        left.right = leftRight
+        
+        let tree = DiameterBinaryTree()
+        
+        XCTAssertEqual(tree.diameterOfBinaryTree(root), 3)
     }
     
     func testPerformanceExample() {
